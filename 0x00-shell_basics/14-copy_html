@@ -1,2 +1,2 @@
 #!/bin/bash
-cp programs/*.html
+cp /tmp/file_0.html /tmp
