@@ -1,1 +1,2 @@
-$ touch HelloWorld.sh
+#!/bin/bash
+$ touch HelloWorld.sh 
