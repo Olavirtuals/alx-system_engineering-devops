@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -d: -f1,6 /etc/passwd | sort | awk -F: '{ printf "%-10s %s\n", $1, $2 }'
+awk -F: '{ printf "%-10s %s\n", $1, $2 }' <(sort <(cut -d: -f1,6 /etc/passwd))
