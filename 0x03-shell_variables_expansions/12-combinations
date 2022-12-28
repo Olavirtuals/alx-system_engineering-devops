@@ -1,2 +1,2 @@
 #!/bin/bash
-for i in range(97,123):[print(chr(i)+chr(j)) for j in range(97,123) if not (chr(i) == 111 and chr(j) == 111)]
+$ echo {a..c}
